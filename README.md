@@ -17,6 +17,7 @@ Site estático para apresentar cinco colônias Jequiti, detalhar o perfil olfati
 - Metadados individuais por página, canonical, Open Graph/Twitter, titles/descriptions e breadcrumbs.
 - JSON-LD Product, BreadcrumbList, FAQPage, ItemList e WebPage, sem preço, review ou estoque inventados.
 - `sitemap.xml`, `robots.txt`, `llms.txt` e links internos entre a home, páginas locais e páginas de produto.
+- Menu móvel acessível com botão hambúrguer, estado expandido anunciado e fechamento por toque, Escape ou navegação.
 - Conteúdo local para consultas de Copacabana e bairros da Zona Sul, com confirmação de disponibilidade por bairro/CEP.
 - WhatsApp informado: `+55 21 99701-1711` (`5521997011711`), configurado na home e nos detalhes.
 - Packshots em `assets/products/`; fontes documentadas em `FONTES-IMAGENS.md`.
