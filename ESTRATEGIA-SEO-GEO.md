@@ -1,7 +1,7 @@
 # Estratégia de Marketing, SEO, GEO e Design — Landing Page Jequiti
 
-> **Entregável:** `index.html` (landing page completa, 1 arquivo, pronta para publicar) + `robots.txt`, `llms.txt`, `sitemap.xml`
-> **Objetivo:** capturar clientes interessados nos 5 perfumes Jequiti mais pesquisados, via WhatsApp.
+> **Entregável:** landing page principal, cinco páginas individuais de produto, hub local Copacabana/Zona Sul, assets de produto e arquivos técnicos SEO (`robots.txt`, `llms.txt`, `sitemap.xml`).
+> **Objetivo:** apresentar os cinco produtos, iniciar contato pelo WhatsApp e atender consultas orgânicas com intenção local no Rio de Janeiro.
 > **Pesquisa realizada em:** 11/11/2026 (fontes: Google Trends via levantamentos de perfumaria, Mercado Livre, Fragrantica, loja oficial Jequiti, imprensa 2025–2026).
 
 ---
@@ -54,9 +54,9 @@ Ranking cruzando **Google Trends + Mercado Livre + rankings de perfumaria + TikT
 ## 4. SEO aplicado na página
 
 - **Palavra-chave principal:** “perfumes Jequiti mais buscados” (título, H1, URL âncora `#top5`).
-- **Long-tail coberta:** “perfume do Cebolinha”, “Patricia Abravanel Essence”, “Eliana Cristal Jequiti”, “Adriane Galisteu Jequiti”, “Bem-Me-Quer Euforia”, “comprar Jequiti no Rio de Janeiro”, “revendedora Jequiti WhatsApp”.
-- **Técnico:** 1 arquivo HTML leve (sem framework), HTML semântico, 1 H1, hierarquia de headings, alt text, meta description, Open Graph, canonical, `robots.txt`, `sitemap.xml`, dados estruturados **JSON-LD** (Organization, LocalBusiness, ItemList, FAQPage, WebSite).
-- **Local (SEO local):** menções a Rio de Janeiro, Niterói, São Gonçalo, região metropolitana + schema LocalBusiness + geo tags. Cadastre também no **Google Perfil de Empresa** com o mesmo WhatsApp.
+- **Long-tail coberta:** “perfume do Cebolinha”, “Patricia Abravanel Essence”, “Eliana Cristal Jequiti”, “Adriane Galisteu Jequiti”, “Bem-Me-Quer Euforia”, “perfume Jequiti em Copacabana”, “perfumes Jequiti Zona Sul RJ”, “comprar Jequiti no Rio de Janeiro”, “consultar perfume Jequiti pelo WhatsApp”.
+- **Técnico:** páginas HTML estáticas sem framework, HTML semântico, um H1 por página, hierarquia de headings, alt text, meta description, Open Graph, canonicals, `robots.txt`, `sitemap.xml`, JSON-LD (Organization, Product, BreadcrumbList, ItemList, FAQPage, WebSite/WebPage).
+- **SEO local Copacabana/Zona Sul:** página local própria e páginas individuais de produto com conteúdo singular, links internos e WhatsApp. Sem endereço, coordenadas, horário, preço ou cobertura inventados; Perfil da Empresa Google somente após confirmar elegibilidade e dados reais. Ver `SEO-LOCAL-COPACABANA.md`.
 
 ## 5. GEO (Generative Engine Optimization) aplicado
 
@@ -91,11 +91,7 @@ Referências estudadas: **Quem Disse, Berenice?** (campanha com mote + CTA únic
 
 ## 7. Como colocar no ar e configurar (5 minutos)
 
-1. **Troque o número do WhatsApp** no topo do `<script>` do `index.html`:
-   ```js
-   const WHATSAPP_NUMBER = "5521999999999"; // <-- seu número com DDI+DDD
-   ```
-   (Ou use `?numero=5521...` na URL — útil para anúncios com UTM.)
+1. **WhatsApp já configurado:** o número informado pelo responsável está definido no topo do `<script>` do `index.html` como `5521997011711` (+55 21 99701-1711). Se mudar no futuro, altere essa constante. Também é possível passar `?numero=5521...` na URL para sobrescrever o contato em campanhas.
 2. **Troque o domínio** `https://jequiti.example.com/` pelo seu domínio real em: canonical, Open Graph, JSON-LD, `robots.txt` e `sitemap.xml`.
 3. **Publique** em GitHub Pages, Netlify ou qualquer hospedagem, incluindo `index.html`, `assets/products/` e os arquivos `robots.txt`, `llms.txt` e `sitemap.xml`.
 4. **Google Search Console:** envie `sitemap.xml`. **GA4 + Meta Pixel:** adicione os códigos (placeholders comentados no plano abaixo).
@@ -127,3 +123,25 @@ Referências estudadas: **Quem Disse, Berenice?** (campanha com mote + CTA únic
 As imagens de banco genéricas foram substituídas por **packshots reais da embalagem e do frasco** correspondentes aos cinco produtos. As versões usadas pela página ficam hospedadas localmente em `assets/products/` para evitar dependência de serviços de imagem externos e manter carregamento previsível. A foto de compartilhamento social (`og:image`) aponta para o packshot de Cebolinha hospedado no CDN oficial da Jequiti.
 
 A relação de arquivos, dimensões, páginas de origem e recomendações de uso/licenciamento está em [`FONTES-IMAGENS.md`](FONTES-IMAGENS.md). Como a página é de revenda independente, confirme a autorização de uso comercial das fotografias antes de publicar; prefira os materiais oficiais disponibilizados pela Jequiti/consultora quando houver acesso.
+
+---
+
+## 11. Páginas individuais e SEO local Copacabana/Zona Sul
+
+Foram adicionadas páginas canônicas e indexáveis com conteúdo próprio para cada fragrância:
+
+- `/perfumes/cebolinha-jequiti/`
+- `/perfumes/patricia-abravanel-essence/`
+- `/perfumes/eliana-cristal/`
+- `/perfumes/adriane-galisteu/`
+- `/perfumes/bem-me-quer-euforia/`
+
+Cada página inclui imagem, descrição olfativa baseada em fonte, volume e referência do produto, perfil para escolha, aviso de preço/estoque variáveis, perguntas frequentes visíveis, FAQ/Product/BreadcrumbList JSON-LD, links para outras páginas e CTA WhatsApp. `Product` não declara preço, avaliação nem disponibilidade, porque esses dados não são garantidos nem atualizados automaticamente.
+
+A página `/copacabana/` funciona como hub local: conteúdo útil para pesquisar perfumes Jequiti em Copacabana e bairros da Zona Sul, links para os cinco detalhes e consulta pelo bairro/CEP. A linguagem pede confirmação de cobertura, prazo, custo e eventual retirada, sem prometer entrega garantida ou apresentar uma loja física inexistente.
+
+**Precisão e política Google:** o antigo JSON-LD `LocalBusiness` tinha telefone de exemplo, horário e faixa de preço não confirmados, além de um endereço municipal incompleto; foi removido, assim como as coordenadas genéricas. A home agora usa contato de WhatsApp informado e dados de organização, sem inventar um ponto físico. Adicione `LocalBusiness`, endereço, coordenadas e Perfil da Empresa apenas depois de confirmar que a operação é elegível e de usar dados reais. Não acrescente “Copacabana” ao nome do Perfil como keyword se esse não for o nome comercial real.
+
+**Indexação/medição:** o sitemap agora lista a home, hub Copacabana e cinco páginas de produto; a lista não contém âncoras. Depois de publicar com domínio real, enviar o sitemap e inspecionar as URLs no Search Console. Verificar impressões para “Jequiti Copacabana”, “perfume Jequiti Zona Sul” e cada nome de fragrância. Tráfego e ranking dependem de relevância, distância e destaque e não podem ser garantidos.
+
+Fontes oficiais: [classificação local do Google](https://support.google.com/business/answer/7091?hl=pt-BR), [diretrizes de representação da empresa](https://support.google.com/business/answer/3038177?hl=pt-BR), [dados estruturados LocalBusiness](https://developers.google.com/search/docs/appearance/structured-data/local-business?hl=pt-br). Checklist operacional: [`SEO-LOCAL-COPACABANA.md`](SEO-LOCAL-COPACABANA.md).
