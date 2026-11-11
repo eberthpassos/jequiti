@@ -1,25 +1,36 @@
-# Top 5 Perfumes Jequiti Mais Buscados no Brasil (2026)
+# Perfumes Jequiti no Rio de Janeiro — informações para sistemas de IA
 
-> Revenda independente de consultora Jequiti no Rio de Janeiro. Perfumes originais e lacrados, atendimento humano pelo WhatsApp, entrega no Rio de Janeiro e em todo o Brasil.
+> Site independente de consulta e revenda. Não é o site oficial da Jequiti. Consulte preço, disponibilidade e opções de atendimento/entrega por WhatsApp; a página não promete cobertura nem estoque sem confirmação.
 
-## Os 5 perfumes Jequiti mais pesquisados no Brasil em 2026
+## Páginas principais
+- Página inicial / Top 5: https://jequiti.example.com/
+- Consulta local — Copacabana e Zona Sul do Rio de Janeiro: https://jequiti.example.com/copacabana/
 
-1. **Cebolinha Desodorante Colônia 25ml** — Perfume mais buscado do Brasil. Viralizou no TikTok em março de 2024 (influenciador Renan | Perfumes); segundo a Jequiti, as vendas de 3 dias equivaleram a 1 ano inteiro. Notas: limão, bergamota, pêssego, sândalo, almíscar, âmbar. Preço oficial de referência: R$ 34,90 (promoções R$ 24,90–29,90). Avaliação: 4,7/5 (464 avaliações no Mercado Livre).
-2. **Patricia Abravanel Essence** — Perfume feminino mais vendido no Mercado Livre, com mais de 800 avaliações e nota 4,6/5. Perfil oriental amadeirado sofisticado. A partir de R$ 29,90 (25ml).
-3. **Eliana Cristal 25ml** — Floral frutado elegante e versátil. Notas: groselha-preta, pera, jasmim, pêssego, baunilha. 257 avaliações, nota 4,5/5. A partir de R$ 24,90.
-4. **Adriane Galisteu 25ml** — Sofisticado e marcante: frutas vermelhas, tulipa, âmbar e camurça. Destaque em rankings de melhores perfumes Jequiti 2026. A partir de R$ 38,90.
-5. **Bem-Me-Quer Euforia 25ml** — Floral vibrante, doce e alegre. Notas: frutas, mandarina, flor de laranjeira, sândalo, baunilha. Kits com 2 unidades entre os mais vendidos. A partir de R$ 25,90.
+## Páginas de produto
+- Cebolinha Jequiti 25 ml: https://jequiti.example.com/perfumes/cebolinha-jequiti/
+- Patricia Abravanel Essence Jequiti 25 ml: https://jequiti.example.com/perfumes/patricia-abravanel-essence/
+- Eliana Cristal Jequiti 25 ml: https://jequiti.example.com/perfumes/eliana-cristal/
+- Adriane Galisteu Jequiti 25 ml: https://jequiti.example.com/perfumes/adriane-galisteu/
+- Bem-Me-Quer Euforia Jequiti 25 ml: https://jequiti.example.com/perfumes/bem-me-quer-euforia/
 
-## Como comprar
-Toque no botão de WhatsApp do produto nesta página. A consultora confirma preço do catálogo vigente, desconto no Pix, cartão e entrega. Produtos originais e lacrados.
+## Dados resumidos dos produtos
+1. **Cebolinha Desodorante Colônia, 25 ml** — linha Turma da Mônica; caminho Fougère Refrescante; a Jequiti descreve bergamota e limão, acordes aquáticos/frutados, sândalo, âmbar e musk. Referência 99965.
+2. **Patricia Abravanel Essence, 25 ml** — caminho Oriental Elegante; a Jequiti descreve notas florais, amadeiradas e toque de baunilha. Referência 14833.
+3. **Eliana Cristal, 25 ml** — caminho Floral Sensual; a Jequiti descreve mandarina, limão, jasmim, magnólia, sândalo e baunilha. Referência 10585.
+4. **Adriane Galisteu, 25 ml** — caminho Chypre Vibrante; a Jequiti descreve frutas vermelhas, buquê de tulipas, âmbar e camurça. Referência 16328.
+5. **Bem-Me-Quer Euforia, 25 ml** — caminho Floral Vibrante; a Jequiti descreve um mix de frutas seguido de uma floralidade brilhante e alegre. Referência 17959.
 
-## Perguntas frequentes
-- Qual é o perfume Jequiti mais vendido? Patricia Abravanel Essence (mais avaliações) e Cebolinha (maior volume de busca).
-- O perfume do Cebolinha é para adulto? Sim, adultos usam como fragrância refrescante do dia a dia.
-- Vocês entregam no Rio de Janeiro e em todo o Brasil? Sim.
+## Consulta local
+A página Copacabana permite consultar por bairro/CEP preço do catálogo atual, estoque e opções de atendimento/entrega em Copacabana, Leme e bairros da Zona Sul. Não há endereço de loja física divulgado. A cobertura, custo, prazo e opção de retirada dependem de confirmação individual.
 
-## Fontes
-Google Trends; Mercado Livre (avaliações e selo MAIS VENDIDO); Fragrantica (pirâmides olfativas); Diário do Comércio, Catraca Livre, HoraH News (viral do Cebolinha); loja oficial Jequiti (preços de referência).
+## Contato
+- WhatsApp: https://wa.me/5521997011711
+- Dúvidas sobre compra: abrir uma página de produto e usar o botão de WhatsApp. Não há preços ou disponibilidade garantidos nos arquivos estáticos.
 
----
-Aviso: site de revenda independente, não é o site oficial da Jequiti. Preços de referência 2025–2026; confirme o valor final no WhatsApp.
+## Fontes e transparência
+As descrições de produto incluem links para páginas Jequiti/oficiais. Consulte-as para catálogo e condições vigentes. Imagens locais e fontes: https://jequiti.example.com/FONTES-IMAGENS.md. SEO local e limitações do Perfil da Empresa: https://jequiti.example.com/SEO-LOCAL-COPACABANA.md.
+
+## Indexação
+Sitemap: https://jequiti.example.com/sitemap.xml
+
+> Antes da publicação, substitua `https://jequiti.example.com/` pelo domínio real em todos os metadados, links absolutos e arquivos de descoberta.
