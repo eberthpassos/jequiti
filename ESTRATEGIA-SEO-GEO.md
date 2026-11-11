@@ -97,7 +97,7 @@ Referências estudadas: **Quem Disse, Berenice?** (campanha com mote + CTA únic
    ```
    (Ou use `?numero=5521...` na URL — útil para anúncios com UTM.)
 2. **Troque o domínio** `https://jequiti.example.com/` pelo seu domínio real em: canonical, Open Graph, JSON-LD, `robots.txt` e `sitemap.xml`.
-3. **Publique** em GitHub Pages, Netlify ou qualquer hospedagem (é 1 arquivo HTML + 3 arquivos de texto).
+3. **Publique** em GitHub Pages, Netlify ou qualquer hospedagem, incluindo `index.html`, `assets/products/` e os arquivos `robots.txt`, `llms.txt` e `sitemap.xml`.
 4. **Google Search Console:** envie `sitemap.xml`. **GA4 + Meta Pixel:** adicione os códigos (placeholders comentados no plano abaixo).
 5. **Google Perfil de Empresa:** crie/atualize com o mesmo WhatsApp e link da página (SEO local no Rio).
 
@@ -119,3 +119,11 @@ Referências estudadas: **Quem Disse, Berenice?** (campanha com mote + CTA únic
 - Site de **revenda independente** — não é o site oficial da Jequiti (aviso visível no rodapé).
 - Preços são **referências** de lojas oficiais/marketplaces (2025–2026) e variam por catálogo, promoção e estoque. O valor final é sempre confirmado no WhatsApp.
 - Depoimentos resumem avaliações públicas; nomes abreviados por privacidade.
+
+---
+
+## 10. Imagens dos produtos
+
+As imagens de banco genéricas foram substituídas por **packshots reais da embalagem e do frasco** correspondentes aos cinco produtos. As versões usadas pela página ficam hospedadas localmente em `assets/products/` para evitar dependência de serviços de imagem externos e manter carregamento previsível. A foto de compartilhamento social (`og:image`) aponta para o packshot de Cebolinha hospedado no CDN oficial da Jequiti.
+
+A relação de arquivos, dimensões, páginas de origem e recomendações de uso/licenciamento está em [`FONTES-IMAGENS.md`](FONTES-IMAGENS.md). Como a página é de revenda independente, confirme a autorização de uso comercial das fotografias antes de publicar; prefira os materiais oficiais disponibilizados pela Jequiti/consultora quando houver acesso.

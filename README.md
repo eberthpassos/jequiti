@@ -5,11 +5,13 @@ Landing page completa para capturar clientes interessados nos **5 perfumes Jequi
 ## Arquivos
 | Arquivo | O quê |
 |---|---|
-| `index.html` | A landing page completa (1 arquivo, sem dependências) |
+| `index.html` | Landing page completa, sem dependências externas de CSS/JS; usa os packshots locais em `assets/products/` |
 | `ESTRATEGIA-SEO-GEO.md` | Relatório completo: top 5 sites, top 5 produtos, Google Trends, SEO, GEO, design e roadmap |
 | `robots.txt` | SEO + liberação de bots de IA (GEO) |
 | `llms.txt` | Resumo citável para ChatGPT/Gemini/Perplexity |
 | `sitemap.xml` | Sitemap para o Google |
+| `assets/products/` | Cinco packshots reais dos produtos em destaque, servidos localmente |
+| `FONTES-IMAGENS.md` | Fontes e observações sobre as fotos dos produtos |
 
 ## Top 5 produtos em destaque
 1. **Cebolinha 25ml** — viral do TikTok, nº 1 em buscas
